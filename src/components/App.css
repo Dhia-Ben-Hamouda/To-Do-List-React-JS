@@ -1,0 +1,41 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+
+.container{
+    background:linear-gradient(  to bottom , #555 , black  );
+    height:100vh;
+    width:100vw;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+}
+
+input{
+    height:28px;
+}
+
+button{
+    height:32px;
+    width:50px;
+}
+
+h1{
+    color:white;
+}
+
+ul{
+    list-style: none;
+}
+
+
+li{
+    color:white;
+    font-size: 20px;
+    margin:1rem;
+}
